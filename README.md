@@ -7,9 +7,12 @@
   #### ./visualise <integer_data_type> <data> <base>
   where:
   > **data_type**         = **{char, short, int, long, float, double}**
-   **integer_data_type** = **{char, short, int, long}**
-   (-1) * 1.8 * 10 ^ 308 <= **data** <= 1.8 * 10 ^ 308 (**DBL_MIN**, **DBL_MAX**)
-   2 <= **base** <= 16
+  
+  > **integer_data_type** = **{char, short, int, long}**
+  
+  > (-1) * 1.8 * 10 ^ 308 <= **data** <= 1.8 * 10 ^ 308 (**DBL_MIN**, **DBL_MAX**)
+  
+  > 2 <= **base** <= 16
 
   Example:
   ```sh
