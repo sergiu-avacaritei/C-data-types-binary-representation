@@ -4,7 +4,7 @@ MacOS := $(findstring Darwin, $(shell uname -s))
 Windows := $(findstring NT, $(shell uname -s))
 
 # Specify what typing 'make' on its own will compile
-default: triangle
+default: visualise
 
 # For Native Windows only, add the .exe extension
 ifdef Windows
