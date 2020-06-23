@@ -27,5 +27,5 @@ and then converted back to a decimal string with the same number of digits, the 
 
 ### 2. When you run it using ./visualise <integer_data_type> <data> <base>:
 - Convert the string <integer_data_type> the same as above **(1)**.
-- Convert the string <base> into an int
+- Convert the string <base> into an int.
 - Convert the string <data> into an integer, but only after the data has been converted from that base form to a decimal string.
