@@ -28,7 +28,7 @@
 **Note**: "If a decimal string with at most 15 significant digits is converted to IEEE 754 double-precision representation,
 and then converted back to a decimal string with the same number of digits, the final result should match the original string." (https://en.wikipedia.org/wiki/Double-precision_floating-point_format). Therefore, if you introduce a big number with an "ugly" fractional part, it is a highly chance that the program will print nothing due to the fact that conversion is inaccurate.
 
-### 2. When you run it using ./visualise <integer_data_type data base:
+### 2. When you run it using ./visualise integer_data_type data base:
 - Convert the string *integer_data_type* the same as above **(1)**.
 - Convert the string *base* into an int.
 - Convert the string *data* into an integer, but only after the data has been converted from that base form to a decimal string.
